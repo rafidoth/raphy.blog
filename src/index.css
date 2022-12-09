@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --wh : #fefcf3;
+  --bl: #1c1c1c;
+}
+
+.light{
+  --bg : var(--wh);
+  --text: var(--bl);
+}
+
+
+.dark{
+  --bg : var(--bl);
+  --text : var(--wh);
+}
+
+
